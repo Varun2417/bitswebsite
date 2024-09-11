@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;       
+}
+
+.obox{
+    border: solid 1px;
+    height: 300px;
+    display: flex;
+}
+#inbox1,#inbox2{
+     border: solid 1px;
+     height: 300px;
+
+}
+#inbox1{
+    width: 300px;
+}
+#inbox2{
+    width: 2034px;
+   text-align: center; 
+}
+#clgname{
+    font-size: 70px;
+    color:red;
+}
+#clg2{
+    font-size: 35px;
+}
+#clg3{
+    font-size: 40px;
+}
+#clg4{
+    font-size: 50px;
+}
+#clga{
+    font-size: 40px;
+    color: blueviolet;
+}
+#scrollclg{
+    font-size: 50px;
+    font-weight: bolder;
+    color: blue;
+    font-style: italic;
+}
+#navbox{
+    border: solid 1px;
+    height: 60px;    
+}
+ul li{
+     border: solid 1px;
+     height: 60px;
+     width:253px;
+     float: left;
+     text-align: center;
+     line-height: 50px;
+     background-color: rgb(5, 110, 84);
+     font-size: 35px;
+     margin-right: 1px;
+     margin-bottom: 1px;
+    border-radius: 15px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: chocolate;
+}
+.outerbox{
+    border: solid 1px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+#in1,#in2,#in3{
+    border: solid 1px;
+     height: 550px;
+     z-index: -1 ;
+    
+}
+#in1{
+    width: 900px;
+    background-image: url(bits2.jpg);
+    background-repeat: no-repeat;
+    background-size: 900px  550px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    10%{
+        background-image: url(bits3.jpg);
+    }
+    20%{
+        background-image: url(bits4.jpg);
+    }
+    30%{
+        background-image: url(bits5.jpg);
+    }
+    40%{
+        background-image: url(bits6.jpg);
+    }
+    50%{
+        background-image: url(bits7.jpg);
+    }
+    60%{
+        background-image: url(bits8.jpg);
+    }
+}
+#in2,#in3{
+    width: 600px;
+}
+#placebox{
+    border: solid 1px;
+}
